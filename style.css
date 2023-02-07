@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/**
+    font-family: 'Inter', sans-serif;
+    font-family: 'Iceberg', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'Damion', cursive;*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+.container{
+    color:#fff;    
+    border-radius: 10px;
+    width: 1500px;
+    height: 1024px;
+    background: linear-gradient(to right,#000000, rgba(56, 68, 86, 1));
+    border: 1px solid #fff;
+}
+
+.container-content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.animation-img{
+    width: 919px;
+    height: 753px;
+}
+
+.name-animation{
+    font-family: 'Iceberg', cursive;
+    color: rgba( 146, 216, 246, 25%);
+    font-size: 250px;
+    margin-left: 100px;
+    margin-right: auto;
+    
+}
+
+.message-available-content{
+    margin-left: 130px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.message-animation{
+    font-family: 'Creepster', cursive;
+    font-size:60px;
+}
+
+.available{
+    font-family: 'Damion', cursive;
+    font-size: 40px;
+}
+
+.buy-now-content{
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin-left: 130px;
+    margin-bottom: 130px;  
+}
+
+.buy-now-btn{
+    font-size: 36px;
+    font-weight: 633;
+    width: 237.7px;
+    height: 77px;
+    background: rgba(119, 123, 125, 0.67);   
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.buy-now-btn a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.buy-now-btn:hover{
+    opacity: 0.5;
+}
+
+.wishlist{
+    position: absolute;
+    color:#fff;
+    align-items: center;
+    font-family: 'Damion', cursive;
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.wishlist span{
+    color:rgba(119, 123, 125, 0.67);   
+}
+
+.wishlist:hover{
+    color:red;
+}
+
